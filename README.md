@@ -16,6 +16,16 @@ Consisting of a dynamic grid of cells, the simulation will randomly generate a f
 <br>
 
 <h2>
+  Demo
+</h2>
+
+<div align="center">
+  <img src="Documentation/firesim-demo-animated.gif" alt="Animation showing simulation of fire spreading through a forest">
+</div>
+
+<br>
+
+<h2>
   Screenshots
 </h2>
 
@@ -28,11 +38,11 @@ Consisting of a dynamic grid of cells, the simulation will randomly generate a f
     <td>Turn 112</td>
   </tr>
   <tr>
-    <td><img src="Documentation/firesim-demo-1.png" alt=""></td>
-    <td><img src="Documentation/firesim-demo-2.png" alt=""></td>
-    <td><img src="Documentation/firesim-demo-3.png" alt=""></td>
-    <td><img src="Documentation/firesim-demo-4.png" alt=""></td>
-    <td><img src="Documentation/firesim-demo-5.png" alt=""></td>
+    <td><img src="Documentation/firesim-demo-1.png" alt="Turn 1 shows the starting location of the fire"></td>
+    <td><img src="Documentation/firesim-demo-2.png" alt="Turn 30 shows minimal fire damage to the forest"></td>
+    <td><img src="Documentation/firesim-demo-3.png" alt="Turn 60 shows significant fire damage as less than 50% of trees remain"></td>
+    <td><img src="Documentation/firesim-demo-4.png" alt="Turn 90 shows severe fire damage as less than 25% of trees remain"></td>
+    <td><img src="Documentation/firesim-demo-5.png" alt="Turn 112 shows the finished simulation"></td>
   </tr>
 </table>
 
@@ -44,12 +54,12 @@ In the above screenshots, a full forest density has been used and a random locat
 
 <table align="center">
   <tr>
-    <td><img src="Documentation/firesim-empty.png" alt=""></td>
-    <td><img src="Documentation/firesim-tree.png" alt=""></td>
-    <td><img src="Documentation/firesim-burning-tree.png" alt=""></td>
-    <td><img src="Documentation/firesim-hot-embers.png" alt=""></td>
-    <td><img src="Documentation/firesim-embers.png" alt=""></td>
-    <td><img src="Documentation/firesim-dead-tree.png" alt=""></td>
+    <td><img src="Documentation/firesim-empty.png" alt="Two spaces represent an empty cell"></td>
+    <td><img src="Documentation/firesim-tree.png" alt="A green forward and green backward slash represent a tree cell"></td>
+    <td><img src="Documentation/firesim-burning-tree.png" alt="Two red hash symbols represent a burning tree cell"></td>
+    <td><img src="Documentation/firesim-hot-embers.png" alt="Two yellow hash symbols represent a hot embers cell"></td>
+    <td><img src="Documentation/firesim-embers.png" alt="Two orange hash symbols represent an embers cell"></td>
+    <td><img src="Documentation/firesim-dead-tree.png" alt="Two grey full stops represent a dead tree cell"></td>
   </tr>
   <tr>
     <td>Empty</td>
