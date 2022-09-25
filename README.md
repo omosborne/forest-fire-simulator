@@ -6,11 +6,13 @@ This is part of the coursework for the Object Oriented Programming course in the
 
 Consisting of a dynamic grid of cells, the simulation will randomly generate a fire anywhere in the forest. Then, through a turn-based system, the simulation will proceed to spread the fire throughout the forest. Several factors affect the outcome and path the fire takes, these variables are listed below:
 
-- Forest density
+- <a href="https://github.com/omosborne/forest-fire-simulator/blob/2c2be185cd8c3eace03a0cef6aa4e192265d0ed4/FireSimulation/Cell.h#L42">Forest density</a>
   - Ratio of tree cells to empty cells at the start of the simulation
-- Fire spread chance
+- <a href="https://github.com/omosborne/forest-fire-simulator/blob/2c2be185cd8c3eace03a0cef6aa4e192265d0ed4/FireSimulation/Cell.h#L40">Fire spread chance</a>
   - How likely a burning tree cell will spread the fire to a neighbouring tree cell
-- Ember life
+- <a href="https://github.com/omosborne/forest-fire-simulator/blob/2c2be185cd8c3eace03a0cef6aa4e192265d0ed4/FireSimulation/Cell.h#L36">Burn time</a>
+  - How many turns a burning tree cell will remain before changing to an ember cell
+- <a href="https://github.com/omosborne/forest-fire-simulator/blob/2c2be185cd8c3eace03a0cef6aa4e192265d0ed4/FireSimulation/Cell.h#L37">Ember life</a>
   - How many turns an ember cell will remain before dying out
 
 <br>
